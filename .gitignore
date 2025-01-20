@@ -1,7 +1,34 @@
-AppData/
-Cookies/
-Documents/
-My Documents/
-Templates/
-*.bak
-*.swp
+# Ignore system files
+Application Data/
+Local Settings/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+
+# Ignore user directories and files
+Desktop/
+Downloads/
+Music/
+Pictures/
+OneDrive/
+Videos/
+Contacts/
+Saved Games/
+Searches/
+
+# Ignore Windows-specific files
+*.dat
+*.log
+*.ini
+*.regtrans-ms
+*.blf
+
+# Ignore ssh folder
+.ssh/
+
+# Ignore other system or editor files
+.bash_history
+.gitconfig
+.lesshst
